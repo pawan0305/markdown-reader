@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Markdown Reader
+Comment=Open and read .md files in Firefox
+Exec=/home/pawan/mdreader-launcher.sh %f
+Icon=text-x-generic
+Terminal=false
+Type=Application
+MimeType=text/markdown;text/x-markdown;application/x-md;inode/directory;
+Categories=Utility;TextEditor;
