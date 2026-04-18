@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Markdown Reader
 Comment=Open and read .md files in Firefox
-Exec=/home/pawan/mdreader-launcher.sh %f
+Exec=bash -c 'exec "$HOME/mdreader-launcher.sh" "$@"' _ %f
 Icon=text-x-generic
 Terminal=false
 Type=Application
